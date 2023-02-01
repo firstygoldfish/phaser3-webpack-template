@@ -1,16 +1,16 @@
 {
-  "name": "phaser-webpack-boilerplate",
+  "name": "phaser3-webpack-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack-cli --config webpack.prod.js",
-    "dev": "webpack-cli serve --config webpack.common.js",
-    "dev-fb": "webpack-cli serve --config webpack.fb.js"
+    "dev": "webpack-cli serve --host 0.0.0.0 --config webpack.common.js",
+    "dev-fb": "webpack-cli serve --host 0.0.0.0 --config webpack.fb.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Carl Last carl.last@gmail.com",
+  "license": "MIT",
   "dependencies": {
     "phaser": "^3.24.1",
     "webpack-merge": "^5.1.4"
